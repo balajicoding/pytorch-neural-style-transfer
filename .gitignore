@@ -1,2 +1,20 @@
 .idea
-__pycache__
+__pycache__ 
+# Ignore Windows system folders
+AppData/
+*.db
+*.log
+*.tmp
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+AppData/
+*.pyc
+__pycache__/
+*.log
+*.tmp
